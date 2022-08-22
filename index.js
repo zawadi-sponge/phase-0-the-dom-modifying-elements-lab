@@ -1,5 +1,7 @@
 // Write your code here!
-const main = document.getElementById('main');
-main.remover();
-const newHeader = document.getElementById('victory');
+main.remove();
+
+
+const newHeader = document.createElement('h1');
+newHeader.id = 'victory'
 newHeader.innerHTML = 'Zawadi is the champion'
